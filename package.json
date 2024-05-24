@@ -1,0 +1,17 @@
+{
+  "name": "tweetos",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "PORT=29000 nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  }
+}
